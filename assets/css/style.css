@@ -1,0 +1,30 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+}
+
+#forimage {
+    float: left;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#container {
+    position:relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+    margin-top: 100px;
+    padding:3%;
+    width: 25%;
+    height: 40%;
+}
+
+#tophead {
+    position:relative;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
