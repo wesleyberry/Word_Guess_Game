@@ -19,7 +19,7 @@ body {
     margin-top: 100px;
     padding:3%;
     width: 25%;
-    height: 40%;
+    height: 50%;
 }
 
 #tophead {
@@ -27,4 +27,8 @@ body {
     font-size: 70px;
     text-align: center;
     padding-top: 100px;
+}
+
+#link {
+    color: white;
 }
