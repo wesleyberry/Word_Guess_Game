@@ -5,8 +5,8 @@ body {
 
 #forimage {
     float: left;
-    height: 100%;
     width: 100%;
+    height: auto;
     position: absolute;
 }
 
@@ -31,4 +31,70 @@ body {
 
 #link {
     color: white;
+}
+
+@media screen and (max-width: 575px)  {
+    #forimage {
+    top: 10%;
+    width: 100%;
+    height: auto;
+    }
+    #tophead {
+    font-size: 8vw;
+    }
+    #container {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20%;
+    font-size: 4vw;
+    }
+}
+
+                        /* sm */
+@media screen and (max-width: 767px) and (min-width: 576px)  {
+    #forimage {
+    top: 10%;
+    }
+    #tophead {
+    position:relative;
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 100px;
+    }
+    #container {
+    width: 50%;
+    margin-left: 20%;
+    }
+}
+
+                        /* md */
+@media screen and (max-width: 991px) and (min-width: 768px)  {
+    #forimage {
+    top: 10%;
+    }
+    #container {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 40%;
+    }
+}
+
+                        /* lg */
+@media screen and (max-width: 1199px) and (min-width: 992px)  {
+    #forimage {
+    top: 10%;
+    }
+    #container {
+    margin-top: 5%;
+    }
+}
+
+                        /* xl */
+@media screen and (min-width: 1200px) {
+    #forimage {
+    top: 8%;
+    }
+    #tophead {
+    padding-top: 100px;
+    }
 }
