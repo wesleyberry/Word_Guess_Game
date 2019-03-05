@@ -70,21 +70,21 @@ function checkLetters(letter)  {
     else {
         whip.play();
     }
-    
-    console.log(right);
 }
 
 function complete() {
-    console.log("wins:" + wins + "| losses:" + losses + "| guesses remaining:" + guessesRemaining)
+    console.log("wins:" + wins);
+    console.log("losses:" + losses);
+    console.log("guesses remaining:" + guessesRemaining);
 
     if (lettersOfWord.toString() == right.toString()) {
         wins++;
         chaching.play();
-        reset()
+        reset();
         document.getElementById("wins").innerHTML = " " + wins;
     } else if (guessesRemaining === 0) {
         losses++;
-        reset()
+        reset();
         document.getElementById("losses").innerHTML = " " + losses;
     }
     document.getElementById("spaces").innerHTML = "  " + right.join(" ");
